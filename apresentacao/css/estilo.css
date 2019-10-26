@@ -1,0 +1,56 @@
+/* Estrutura do site 
+-----------------------------------------*/
+body{
+    background-color: #fff;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; 
+}
+
+/* Cabeçalho
+-----------------------------------------*/
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:link, a:active, a:visited{
+    color:#fff;
+    text-decoration: none
+}
+
+a:hover{
+    color: #98FB98
+}
+/* logo
+-----------------------------------------*/
+#logo img{
+    width: 246px;
+    height: 30px;
+    background:  no-repeat
+}
+
+/* Menu
+-----------------------------------------*/
+header{
+    background-color: green;
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    border-right: 2px solid #fff;
+    padding-right: 15px;
+}
