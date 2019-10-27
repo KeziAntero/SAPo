@@ -1,56 +1,138 @@
-/* Estrutura do site 
------------------------------------------*/
-body{
-    background-color: #fff;
-    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; 
+/* -----------configurações gerais----------------- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/* Cabeçalho
------------------------------------------*/
-#container{
-    width: 1080px;
-    margin: 0 auto;
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
 }
 
-a:link, a:active, a:visited{
-    color:#fff;
-    text-decoration: none
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
 }
 
-a:hover{
-    color: #98FB98
+/* -----------configurações do menu----------------- */
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: #9CDCAA;
 }
-/* logo
------------------------------------------*/
-#logo img{
-    width: 246px;
-    height: 30px;
-    background:  no-repeat
+.home-menu {
+    background: #148E2F;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
 }
 
-/* Menu
------------------------------------------*/
-header{
-    background-color: green;
-    padding: 15px 0;
-    height: 55px;
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
 }
 
-nav ul{
-    list-style: none;
-    margin: 20px;
-    float: right;
+.home-menu .pure-menu-selected a {
+    color: #ccc;
 }
 
-nav ul li{
-    float: left;
+.home-menu a {
+    color: #fff;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #8FF6A6;
+}
+/* -----------configurações conteúdo----------------- */
+.content-wrapper {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+
 }
 
-nav ul li a{
-    display: block;
-    margin-right: 25px;
-    padding-bottom: 15px;
+.content {
+    padding: 1em 1em 3em;
+}
+
+.content-head {
+    font-weight: 400;
     text-transform: uppercase;
-    border-right: 2px solid #fff;
-    padding-right: 15px;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+.is-center{
+    text-align: center
+}
+.content-subhead {
+    color: #097B22;
+}
+#conteudo-inferior{
+    border-left: #097B22 15px solid;
+    border-right: #097B22 15px solid;
+    border-top: #097B22 2px solid;
+    border-bottom: #097B22 2px solid;
+
+}
+.atendimentos:{
+    text-align: center;
+}
+/* -----------Ajustes de rodapé----------------- */
+.footer {
+    background: #999999;
+    color: white;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+/* -----------Ajustes de resoluções----------------- */
+
+@media (min-width: 48em) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .home-menu {
+        text-align: left;
+    }
+    .home-menu ul {
+        float: right;
+    }
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+    .l-box-lrg {
+        border: none;
+    }
+
+}
+
+@media (min-width: 78em) {
+    .splash-head {
+        font-size: 300%;
+    }
 }
