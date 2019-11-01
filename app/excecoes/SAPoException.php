@@ -8,7 +8,9 @@ class NegocioException extends Exception{
     }
 
     public function __toString() {
-        return __CLASS__ . ": [{$this->code}]: {$this->message}\n{$this->getTraceAsString()}";
+        return __CLASS__ . 
+            ": [{$this->code}]: {$this->message}\n" .
+            "{$this->getTraceAsString()}";
     }
 }
 
