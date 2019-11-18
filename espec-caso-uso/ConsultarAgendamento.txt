@@ -1,0 +1,31 @@
+
+ATOR: Cidadão
+
+FLUXO BÁSICO:
+
+1 - Na tela principal, o Cidadão seleciona a opção de 'Consultar Agendamento'. 
+2 - O Sistema apresenta a tela com as informações de consulta. (alt.1)(info.1)
+3 - O cidadão preenche as informações pertinentes e solicita os agendamentos registrados. (info.1)
+4 - O sistema valida as informações e apresenta uma listagem dos registros de atendimento.(alt.2) (info.2)
+
+
+FLUXO ALTERNATIVO:
+
+alt.1 - Erro no servidor e/ou inacessível
+	1.1 - O sistema encaminha a solicitação para a página principal com a seguinte mensagem msg.1
+
+alt.2 - CPF inválido
+	2.1 - O sistema deverá encaminhar a requisição para FB.3 com a seguinte mensagem msg.2.
+
+MENSAGENS:
+
+msg.1 - Erro no processamento interno da requisição! Contacte o administrador do sistema.
+msg.2 - O CFP não foi registrado de forma correta! 
+
+CAMPOS
+
+info.1 - 'CPF' obrigatório / 'Nome Da Secretaria' opcional
+info.2 - 'Sigla' - 'Nome Da Secretaria' - 'Nome do Serviço' - 'Data' - 'Hora' - Cancelar e Reagendar
+
+
+	
