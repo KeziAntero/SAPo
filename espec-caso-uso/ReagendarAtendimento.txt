@@ -30,6 +30,6 @@ msg.1 - Reagendamento realizao com sucesso!
 
 CAMPOS
 
-info.1 - 'CPF' / 'Sigla' / 'Nome Completo' / 'Nome do Servi�o' / 'Data' / 'Hora'
+info.1 - 'CPF' / 'Sigla' / 'Nome Completo' / 'Nome do Servico' / 'Data' / 'Hora'
 
 	

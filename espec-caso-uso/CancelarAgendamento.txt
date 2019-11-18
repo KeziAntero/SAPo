@@ -33,7 +33,7 @@ msg.4 - Estamos felizes em atende-lo, Obrigado!
 
 CAMPOS
 
-info.1 - 'Sigla' / 'Nome Completo' / 'CPF'/ 'Nome do Servico' / 'Data' / 'Hora'
+info.1 - 'Sigla' / 'Nome Completo' / 'CPF'/ 'Nome do Servicço' / 'Data' / 'Hora'
 info.2 - 'transporte' / 'saude' / 'Outro'
 
 	

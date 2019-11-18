@@ -4,7 +4,7 @@ ATOR: Cidadao
 FLUXO BASICO:
 
 1 - Na tela principal, o Cidadao seleciona a opcao de 'Realizar Agendamento'. 
-2 - O Sistema apresenta a tela de agendamento com as informacoes das secretarias registradas. (alt.1)(info.1)
+2 - O Sistema apresenta a 'Tela de Agendamento' com as informacoes das secretarias registradas. (alt.1)(info.1)
 3 - O cidadao escolhe a secretaria que deseja agendar um servico.
 4 - O sistema apresenta as informacoes dos servicos disponiveis. (alt.2)(info.2) 
 5 - O cidadao escolhe o servico que deseja realizar o agendamento.

@@ -4,7 +4,7 @@ ATOR: Cidadao
 FLUXO BASICO:
 
 1 - Na tela principal, o Cidadao seleciona a opcao de 'Consultar Agendamento'. 
-2 - O Sistema apresenta a tela com as informacoes de consulta. (alt.1)(info.1)
+2 - O Sistema apresenta a 'Tela de Consultar Agendamento', solicitando as  informacoes para consultar. (alt.1)(info.1)
 3 - O cidadao preenche as informacoes pertinentes e solicita os agendamentos registrados. (info.1)
 4 - O sistema valida as informacoes e apresenta uma listagem dos registros de atendimento.(alt.2) (info.2)
 
@@ -25,7 +25,7 @@ msg.2 - O CFP nao foi registrado de forma correta!
 CAMPOS
 
 info.1 - 'CPF' obrigatorio / 'Nome Da Secretaria' opcional
-info.2 - 'Sigla' - 'Nome Da Secretaria' - 'Nome do Servico' - 'Data' - 'Hora' - Cancelar e Reagendar
+info.2 - 'Sigla' - 'Nome Da Secretaria' - 'Nome do Servico' - 'Data' - 'Hora' - {Cancelar e Reagendar}
 
 
 	
