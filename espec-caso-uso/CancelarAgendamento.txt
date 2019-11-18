@@ -1,39 +1,39 @@
 
-ATOR: Cidadão
+ATOR: Cidadao
 
 INCLUDES: Consultar Agendamento
 
-FLUXO BÁSICO:
+FLUXO BASICO:
 
-1 - Na tela 'Consultar Agendamento', o Cidadão seleciona a opção 'Cancelar Agendamento' no próprio registro. 
-2 - O Sistema solicita a confirmação do cancelamento com as informações do agendamento. (alt.1) (info.1)
-3 - O Cidadão confirma o cancelamento. (alt.2)
+1 - Na tela 'Consultar Agendamento', o Cidadao seleciona a opcao 'Cancelar Agendamento' no pr0prio registro. 
+2 - O Sistema solicita a confirmacao do cancelamento com as informacoes do agendamento. (alt.1) (info.1)
+3 - O Cidadao confirma o cancelamento. (alt.2)
 4 - O sistema apresenta a msg.3 e pede para informar o motivo do cancelamento. (alt.3) (info.2)
-5 - O cidadão escolhe o motivo.
+5 - O cidadao escolhe o motivo.
 6 - O sistema encaminha para a 'tela principal' com a seguinte msg.4.
 
 FLUXO ALTERNATIVO:
 
-alt.1 - Erro no servidor e/ou inacessível
-	1 - O sistema encaminha a solicitação para a página principal com a seguinte mensagem msg.1
+alt.1 - Erro no servidor e/ou inacessivel
+	1 - O sistema encaminha a solicitacao para a pagina principal com a seguinte mensagem msg.1
 
-alt.2 - O Cidadão cancela a solicitação
-	1 - O sistema deverá encaminhar para FB.1 com a seguinte mensagem msg.2
+alt.2 - O Cidadao cancela a solicitacao
+	1 - O sistema devera encaminhar para FB.1 com a seguinte mensagem msg.2
 
-alt.3 - O cidadão não quer fornecer o motivo
-	1 - O cidadão 'Confirma' o atendimento da mensagem.
+alt.3 - O cidadao nao quer fornecer o motivo
+	1 - O cidadao 'Confirma' o atendimento da mensagem.
 	2 - O segue o fluxo FB.6. 
 
 MENSAGENS:
 
-msg.1 - Erro no processamento interno da requisição! Contacte o administrador do sistema.
-msg.2 - Sem alteração no agendamento!
+msg.1 - Erro no processamento interno da requisicao! Contacte o administrador do sistema.
+msg.2 - Sem alteracao no agendamento!
 msg.3 - Agendamento cancelado! 
-msg.4 - Estamos felizes em atendê-lo, Obrigado!
+msg.4 - Estamos felizes em atende-lo, Obrigado!
 
 CAMPOS
 
-info.1 - 'Sigla' / 'Nome Completo' / 'CPF'/ 'Nome do Serviço' / 'Data' / 'Hora'
-info.2 - 'transporte' / 'saúde' / 'Outro'
+info.1 - 'Sigla' / 'Nome Completo' / 'CPF'/ 'Nome do Servico' / 'Data' / 'Hora'
+info.2 - 'transporte' / 'saude' / 'Outro'
 
 	

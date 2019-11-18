@@ -1,0 +1,41 @@
+
+ATOR: Cidadao
+
+FLUXO BASICO:
+
+1 - Na tela principal, o Cidadao seleciona a opcao de 'Realizar Agendamento'. 
+2 - O Sistema apresenta a tela de agendamento com as informacoes das secretarias registradas. (alt.1)(info.1)
+3 - O cidadao escolhe a secretaria que deseja agendar um servico.
+4 - O sistema apresenta as informacoes dos servicos disponiveis. (alt.2)(info.2) 
+5 - O cidadao escolhe o servico que deseja realizar o agendamento.
+6 - O sistema apresenta a disponibilidade para o agendamento.
+7 - O cidadao escolhe o dia e hora que deseja ser atendido.
+9 - O Sistema apresenta os campos necessarios para a solicitacao. (info.3)
+8 - O cidadao preenche os campos necessarios e enviar a solicitacao para ser processadas. (alt.3)
+9 - O sistema confirma a realizacao do agendamento.
+
+FLUXO ALTERNATIVO:
+
+alt.1 - Erro no servidor e/ou inacessivel
+	1 - O sistema encaminha a solicitacao para a pagina principal com a seguinte mensagem msg.1
+
+alt.2 - Secretaria sem servico
+	1 - O sistema devera encaminhar para FB.2 com a seguinte mensagem msg.2
+
+alt.3 - CPF invalido
+	1 - O sistema devera encaminhar a requisicao para FB.7 com a seguinte mensagem msg.3.
+
+MENSAGENS:
+
+msg.1 - Erro no processamento interno da requisicao! Contacte o administrador do sistema.
+msg.2 - A secretaria selecionada (*SIGLA*) nao apresenta, neste momento, servicos para agendamento.
+msg.3 - O CFP nao foi registrado de forma correta! 
+
+CAMPOS
+
+info.1 - 'Sigla' / 'Nome Completo'	
+info.2 - 'Nome do Servico'
+info.3 - 'CPF'
+
+
+	
